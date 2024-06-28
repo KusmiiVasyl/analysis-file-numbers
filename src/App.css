@@ -1,0 +1,32 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.stats-container .stats {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 300px;
+}
+
+.stats-container .stats p {
+  margin: 5px;
+  font-size: 1.1rem;
+  color: #ce7603;
+  font-style: italic;
+}
+
+.stats-container .stats p span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #78b6fd;
+  margin-left: 10px;
+}
+
+.load-container {
+  margin-top: 100px;
+}
